@@ -1,34 +1,46 @@
 # Chapter-4-Lab-3
 
-Lab Goal :   This lab was designed to teach you more about recursion.   Lab Description :   Take a number and recursively determine how many of its digits are even.  Return the count of the even digits in each number.  
+Lab Goal :   This lab was designed to teach you more about recursion.   
 
-% might prove useful to take the number apart digit by digit
+Lab Description :   luckyThrees will return a count of the 3s in the number unless the 3 is at the start.  A 3 at the start of the number does not count.   
+	/* luckyThrees will return the count of 3s in the number
+	 * unless the 3 is at the front and then it does not count
+	 * 3 would return 0
+	 * 31332  would return 2
+	 * 134523 would return 2
+	 * 3113  would return 1
+	 * 13331 would return 3
+	 * 777337777  would return 2
+	 * the solution to this problem must use recursion
+	 */
+	public static int luckyThrees( long number )
+	{
 
 
-Files Needed ::
-RecursionFunOne.java
-Main.java
+
+
+
+
+	}	 
+
+
 
 Sample Data :
-4532
-11145322
-224532714		
-2468	
-13579	
-
-algorithm help
-
-  if ( num is greater than zero )
-     if the digit is even
-	return 1 plus a call with remaining digits
-     return 0 plus a call with remaining digits
+3
+31332
+134523
+3113
+13331	
+777337777
 
 
 
 
 Sample Output :
-2
-3
-5
-4
 0
+2
+2
+1
+3
+2
+
